@@ -56,7 +56,7 @@ pip install -r requirements.txt
 Create a `.env` file in the root directory and add:
 
 ```
-GEMINI_API_KEY=your-xai-api-key
+GEMINI_API_KEY=your-gemini-api-key
 ```
 
 ### **5️⃣ Apply Migrations**
@@ -87,9 +87,9 @@ The project will be available at: **`http://127.0.0.1:8000/`**
 
 ## ⚠️ Limitations
 
-🚧 **API Limitations** - The Gemini API has a rate limit; heavy usage might cause delays.
-🚧 **Free Tier Deployment Delays** - Using free services for deployment may introduce minor delays.
-🚧 **OCR Feature Accuracy** - The accuracy of text extraction from images depends on image quality.
+- 🚧 **API Limitations** - The Gemini API has a rate limit; heavy usage might cause delays.
+- 🚧 **Free Tier Deployment Delays** - Using free services for deployment may introduce minor delays.
+- 🚧 **OCR Feature Accuracy** - The accuracy of text extraction from images depends on image quality.
 
 ---
 
